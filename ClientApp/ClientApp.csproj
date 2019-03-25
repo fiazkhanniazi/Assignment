@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="PatientApp\.git\objects\info\" />
+    <Folder Include="PatientApp\.git\objects\pack\" />
+    <Folder Include="PatientApp\.git\refs\tags\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="PatientApp\.git\COMMIT_EDITMSG" />
+    <None Include="PatientApp\.git\config" />
+    <None Include="PatientApp\.git\description" />
+    <None Include="PatientApp\.git\HEAD" />
+    <None Include="PatientApp\.git\hooks\applypatch-msg.sample" />
+    <None Include="PatientApp\.git\hooks\commit-msg.sample" />
+    <None Include="PatientApp\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="PatientApp\.git\hooks\post-update.sample" />
+    <None Include="PatientApp\.git\hooks\pre-applypatch.sample" />
+    <None Include="PatientApp\.git\hooks\pre-commit.sample" />
+    <None Include="PatientApp\.git\hooks\pre-push.sample" />
+    <None Include="PatientApp\.git\hooks\pre-rebase.sample" />
+    <None Include="PatientApp\.git\hooks\pre-receive.sample" />
+    <None Include="PatientApp\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="PatientApp\.git\hooks\update.sample" />
+    <None Include="PatientApp\.git\index" />
+    <None Include="PatientApp\.git\info\exclude" />
+    <None Include="PatientApp\.git\logs\HEAD" />
+    <None Include="PatientApp\.git\logs\refs\heads\master" />
+    <None Include="PatientApp\.git\objects\08\10ae531f9308a6deb2e57f9df0f631a06f0409" />
+    <None Include="PatientApp\.git\objects\0f\3d9d8b9f8e1a938befbfea5ac8bc11494ea709" />
+    <None Include="PatientApp\.git\objects\16\317897b1c50a3a71bc775a8d6429f2b4c6cf98" />
+    <None Include="PatientApp\.git\objects\19\0fd300b601e168a3d185dbfa2758ab73257479" />
+    <None Include="PatientApp\.git\objects\1b\832557a0efc751fe9dc1a28dad67e0cba5f89c" />
+    <None Include="PatientApp\.git\objects\23\51612e8c8e83b724b9c94592f22b4bc1471945" />
+    <None Include="PatientApp\.git\objects\2c\3ba2995c8510c02ca812f90280146738f162cf" />
+    <None Include="PatientApp\.git\objects\31\031e0e0178b9801df520e9f02fa46c8bb5df07" />
+    <None Include="PatientApp\.git\objects\36\12073bc31cd4c1f5d6cbb00318521e9a61bd8a" />
+    <None Include="PatientApp\.git\objects\37\371cb04b9f1986d952499cdf9613c9d5d8ca8c" />
+    <None Include="PatientApp\.git\objects\41\5fd9d09364e0d14af79792892350f6170b4abf" />
+    <None Include="PatientApp\.git\objects\57\76aa9eb80d8e5ad05ed75ec9a04e7ee5060ba9" />
+    <None Include="PatientApp\.git\objects\75\d63939892442b98636cf726a4828ef78d7fd28" />
+    <None Include="PatientApp\.git\objects\7b\4f817adb754769ca126a939d48ac4b0850489d" />
+    <None Include="PatientApp\.git\objects\7b\691924f6fab19ce161ad24492942721386456e" />
+    <None Include="PatientApp\.git\objects\80\81c7ceaf2be08bf59010158c586170d9d2d517" />
+    <None Include="PatientApp\.git\objects\84\09fd91a23a9859539dad46d168e65abd5170f7" />
+    <None Include="PatientApp\.git\objects\86\776a391a5b48b32506eb0fa62b15ed6c926b69" />
+    <None Include="PatientApp\.git\objects\86\8ecba0db1b781aa74d9c7a5247a1cd567f4b0e" />
+    <None Include="PatientApp\.git\objects\8f\ca1aa2bb8a7eb2c82c8c103bc4b3a9731ac4ba" />
+    <None Include="PatientApp\.git\objects\90\d4ee0072ce3fc41812f8af910219f9eea3c3de" />
+    <None Include="PatientApp\.git\objects\91\dc22338e5bf0a90e80de1e2c821ca07a465afc" />
+    <None Include="PatientApp\.git\objects\98\1a786ba9827cd4066e9f0440467c0f5521bbed" />
+    <None Include="PatientApp\.git\objects\a6\dd6220282460dae17d69fc030b94ab1e81d960" />
+    <None Include="PatientApp\.git\objects\a9\eaedc7492aa5ab5ed5a5825e1134bb797b8a00" />
+    <None Include="PatientApp\.git\objects\aa\7c3eeb76b77f7cc456be1aa1cf6078688fcf31" />
+    <None Include="PatientApp\.git\objects\b2\71fd9f3d55adf81bfd0da7d83de3eb88b7e191" />
+    <None Include="PatientApp\.git\objects\b4\f3672641e3e49c3c4ebe59108108e81257bc0e" />
+    <None Include="PatientApp\.git\objects\c7\b673cf44b388e9989fe908b78d7d73cd2e1409" />
+    <None Include="PatientApp\.git\objects\c8\a96a582c2a2ac7170ac4dde5877385b020b00b" />
+    <None Include="PatientApp\.git\objects\d2\e8376ca1048a520f0887a7339a93f35b372eb4" />
+    <None Include="PatientApp\.git\objects\d4\25c6f56b578db1e8d7f8fa2d6c90693ba5d4fb" />
+    <None Include="PatientApp\.git\objects\d5\64d0bc3dd917926892c55e3706cc116d5b165e" />
+    <None Include="PatientApp\.git\objects\de\7733630eb224b246854a20934f792051926e8f" />
+    <None Include="PatientApp\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include="PatientApp\.git\objects\e8\9330a618c137cdaccde46f87923736cc04dfb4" />
+    <None Include="PatientApp\.git\objects\f0\600ee3a9e5da593d40f6426392dc50d4b28579" />
+    <None Include="PatientApp\.git\objects\f4\f46a5feeb99832da5739425488cf171397a413" />
+    <None Include="PatientApp\.git\objects\f9\5e3a1eb1e7f426b2c4b9a4829301abba0b5d6a" />
+    <None Include="PatientApp\.git\refs\heads\master" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+  </ItemGroup>
+
+</Project>
